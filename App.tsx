@@ -95,7 +95,7 @@ const App: React.FC = () => {
 
       {/* Comic Book Footer / Branding */}
       <div className="absolute bottom-2 right-4 text-white/30 font-['Bangers'] text-sm pointer-events-none z-50">
-        Mission: X-Mas Crush • Vol 1
+        by Nguyen Tien Binh
       </div>
     </div>
   );
