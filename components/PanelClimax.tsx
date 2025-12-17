@@ -140,7 +140,7 @@ const PanelClimax: React.FC<Props> = ({ onRestart }) => {
               <p>
                 Gửi{" "}
                 <span className="text-red-600 underline decoration-wavy">
-                  chị mình siêu cấp VIP PRO
+                  chị mình cute đáng yêu siêu cấp VIP PRO
                 </span>
                 ,
               </p>
