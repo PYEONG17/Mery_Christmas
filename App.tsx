@@ -4,6 +4,7 @@ import PanelSetup from "./components/PanelSetup";
 import PanelAction from "./components/PanelAction";
 import PanelClimax from "./components/PanelClimax";
 import { Music, VolumeX } from "lucide-react";
+import { ASSETS } from "./constants";
 
 // Using a public domain Jingle Bells track (Kevin MacLeod)
 const CHRISTMAS_MUSIC_URL =
@@ -66,12 +67,7 @@ const App: React.FC = () => {
   return (
     <div className="w-full h-screen bg-black text-slate-900 font-sans overflow-hidden flex flex-col">
       {/* Hidden Audio Element */}
-      <audio
-        ref={audioRef}
-        src="/merry-christmas-ambient-piano-218350.mp3"
-        loop
-        preload="auto"
-      />
+      <audio ref={audioRef} src={ASSETS.MUSIC} loop preload="auto" />
 
       {/* Top Bar for Audio Toggle */}
       <div className="fixed top-4 right-4 z-50">
