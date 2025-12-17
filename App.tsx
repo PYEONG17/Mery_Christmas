@@ -68,7 +68,7 @@ const App: React.FC = () => {
       {/* Hidden Audio Element */}
       <audio
         ref={audioRef}
-        src="./public/merry-christmas-ambient-piano-218350.mp3"
+        src="/merry-christmas-ambient-piano-218350.mp3"
         loop
         preload="auto"
       />

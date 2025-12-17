@@ -1,10 +1,11 @@
 export const ASSETS = {
-  SANTA_SPY: "https://picsum.photos/id/1005/600/400", // Man with dark background/night vibe
-  SANTA_THROW: "./public/Gemini_Generated_Image_fc5frbfc5frbfc5f.png", // Winter dog or person
-  GIFT_BOX: "./public/Gemini_Generated_Image_5qzw6e5qzw6e5qzw.png", // Strawberries (red) resembling gift
-  CRUSH_HOUSE: "./public/Gemini_Generated_Image_5qzw6e5qzw6e5qzw.png", // Lights/Cozy
-  CRUSH_PHOTO: "./public/person_heartpun.png", // Portrait
-  EXPLOSION: "https://picsum.photos/id/1056/200/200", // abstract
+  SANTA_SPY: "https://picsum.photos/id/1005/600/400",
+  // Sửa: Bỏ dấu / ở đầu để nó tìm đúng trong thư mục deploy
+  SANTA_THROW: "Gemini_Generated_Image_fc5frbfc5frbfc5f.png",
+  GIFT_BOX: "Gemini_Generated_Image_5qzw6e5qzw6e5qzw.png",
+  CRUSH_HOUSE: "Gemini_Generated_Image_5qzw6e5qzw6e5qzw.png",
+  CRUSH_PHOTO: "person_heartpun.png",
+  EXPLOSION: "https://picsum.photos/id/1056/200/200",
 };
 
 export const COLORS = {
